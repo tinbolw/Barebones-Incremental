@@ -34,7 +34,7 @@ valueLabel.pack()
 valueButton = tk.Button(root, width=15, height=5, text = "Button", command = addToValue)
 valueButton.pack()
 
-buyHelperButton = tk.Button(root, width=10, height=3, text="Buy Upgrade (50), command=buyUpgrade)
+buyHelperButton = tk.Button(root, width=10, height=3, text="Buy Upgrade \(50\), command=buyUpgrade)
 buyHelperButton.pack()
 
 root.mainloop()
